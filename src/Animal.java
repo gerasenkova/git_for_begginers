@@ -1,5 +1,11 @@
 public class Animal {
     public static void main(String[] args) {
-        System.out.println("Animal is eating...");
+        Animal animal = new Animal();
+        int c = animal.sum(5, 10);
+        System.out.println(c);
+    }
+
+    public int sum(int a, int b) {
+        return a + b;
     }
 }
